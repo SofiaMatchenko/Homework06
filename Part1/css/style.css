@@ -1,3 +1,4 @@
+/*Properties for task one*/
 .first-rainbow{
     background: #008000;
 }
@@ -16,16 +17,18 @@
 .second-rainbow:active{
     background: #ffd700;
 }
+/*Properties for task two*/
 input:focus{
     border-color: #080;
 }
+/*Properties fo compilation task 3, 4, 5*/
 .third-fifth-sixth p:nth-child(even){
     background: #808080;
 }
 .fourth-task p::first-letter{
     font-family: Georgia, sans-serif;
     color: #f00;
-    font-weight: 2em;
+    font-size: 2em;
 }
 .third-fifth-sixth p::after{
     content: "\2217";
@@ -37,6 +40,7 @@ input:focus{
 .third-fifth-sixth p::before{
     content: "\2602";
 }
+/*Last task, paint*/
 .seventh-task{
     width: 50px;
     height: 20px;
