@@ -1,0 +1,54 @@
+.first-rainbow{
+    background: #008000;
+}
+.second-rainbow{
+    background: #800080;
+}
+.first-rainbow:hover{
+    background: #ff0;
+}
+.second-rainbow:hover{
+    background: #a52a2a;
+}
+.first-rainbow:active{
+    background: #f00;
+}
+.second-rainbow:active{
+    background: #ffd700;
+}
+input:focus{
+    border-color: #080;
+}
+.third-fifth-sixth p:nth-child(even){
+    background: #808080;
+}
+.fourth-task p::first-letter{
+    font-family: Georgia, sans-serif;
+    color: #f00;
+    font-weight: 2em;
+}
+.third-fifth-sixth p::after{
+    content: "\2217";
+}
+.third-fifth-sixth p::after, p::before{
+    display: block;
+    width: 100%;
+}
+.third-fifth-sixth p::before{
+    content: "\2602";
+}
+.seventh-task{
+    width: 50px;
+    height: 20px;
+    background: #000;
+    margin-left: 20px;
+    position: relative;
+}
+.seventh-task::after{
+    content: "";
+    border: 5px solid transparent;
+    border-right: 10px solid #000;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+}
