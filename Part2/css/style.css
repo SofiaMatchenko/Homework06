@@ -95,6 +95,8 @@ td:first-child{
 }
 /*Properties for div inside table four*/
 .plus, .minus, .remove{
+    display: block;
+    text-decoration: none;
     width: 30px;
     height: 30px;
     background: #f00;
@@ -114,7 +116,6 @@ td:first-child{
 }
 .total{
     text-align: right;
-    /*border-right: solid 3px #a9a9a9;*/
     padding-right: 10px;
     margin-right: 3px;
     box-shadow: 5px 0 0 0 #d3d3d3;
