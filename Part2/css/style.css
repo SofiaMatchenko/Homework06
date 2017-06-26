@@ -123,9 +123,10 @@ td:first-child{
 .total p:last-child{
     color: #808080;
 }
+.last-text{
+    text-align: center;
+}
 .last-href{
-    display: block;
-    margin: 10px 210px 15px;
     text-decoration: none;
     color: red;
 }
